@@ -1,0 +1,79 @@
+* {
+    position: fixed;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.95) 100%), url(images/laptop-on-desk.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* icons */
+#github {
+    width: 2.3vmax;
+    top: 0.85vmin;
+    left: 1vmax;
+}
+
+#in {
+    width: 2vmax;
+    top: 1vmin;
+    left: 4vmax;
+}
+
+#mail {
+    width: 8vmax;
+    top: 1vmin;
+    left: 7vmax;
+}
+/* links */
+.textlink {
+    color: snow;
+    font-size: 2Vmax;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#bigbang {
+    top: 1vmin;
+    right: 1vmax;
+}
+
+#book {
+    bottom: 1vmin;
+    right: 1vmax;
+}
+
+#parsinegar {
+    bottom: 1vmin;
+    left: 1vmax;
+}
+/* text */
+p {
+    color: snow;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#name {
+    font-size: 8vw;
+    top: 5vh;
+    left: 25vw;
+}
+
+.introduction {
+    font-size: 1.5vw;
+}
+
+.first {
+    top: 45vh;
+    left: 37.5vw;
+}
+
+.second {
+    top: 50vh;
+    left: 21.5vw;
+}
+
+.third {
+    top: 55vh;
+    left: 12vw;
+}
