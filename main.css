@@ -7,6 +7,7 @@ body {
     background-size: 100% 100%;
     background-attachment: fixed;
     position: static;
+    background-repeat: no-repeat;
 }
 /* icons */
 #github {
