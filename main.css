@@ -1,9 +1,7 @@
 body {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.95) 100%), url(images/laptop-on-desk.jpg);
-    background-size: 100vmin 100vmax;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0.8) 50%), url(images/laptop-on-desk.jpg);
+    background-size: 100% 100%;
     background-attachment: fixed;
-    position: static;
-    background-repeat: no-repeat;
 }
 /* icons */
 #github {
