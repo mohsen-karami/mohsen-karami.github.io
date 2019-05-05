@@ -1,5 +1,9 @@
+* {
+    position: fixed;
+}
+
 body {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 60%,rgba(256,256,256,0.5) 100%), url(images/laptop-on-desk.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.95) 0%,rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.95) 100%), url(images/laptop-on-desk.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
 }
@@ -72,4 +76,11 @@ p {
 .third {
     top: 55vh;
     left: 12vw;
+}
+
+@media only screen and (max-width: 991px) {
+    body {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 60%,rgba(256,256,256,0.5) 100%), url(images/laptop-on-desk.jpg);
+    background-size: 100% 100%;
+    background-attachment: scroll;
 }
