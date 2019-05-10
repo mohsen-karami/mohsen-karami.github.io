@@ -2,9 +2,9 @@
 <html>
     <head>
         <title>Mohsen Karami | Website</title>
-        <link href="main.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="(orientation: portrait)" href="main-portrait.css">
+        <link rel="stylesheet" type="text/css" media="(orientation: landscape)" href="main-landscape.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-
     </head>
     <body>
         <!-- icons -->
@@ -12,8 +12,22 @@
         <a href="https://www.linkedin.com/in/mohsen-karami"><img id="in" src="images/In-white.png"></a>
         <a href="mailto:karami.mohsen@protonmail.com"><img id="mail" src="images/secured-by-protonmail-white%20(copy).png"></a>
         <!-- links -->
-        <a class="textlink" id="bigbang" href="https://bigbangpage.com/author/mohsen-karami">BigBang</a>
-        <a class="textlink" id="book" href="https://bigbangpage.com/author/mohsen-karami">Information Security</a>
+        <a class="textlink" id="blog">Blog</a>
+        <div id="blogline"></div>
+        <div class="linksbox" id="myblogbox">
+            <a class="sub textlink" id="myblog" href="#1">MyBlog</a>
+        </div>
+        <div class="linksbox" id="bigbangbox">
+            <a class="sub textlink" id="bigbang" href="#2">BigBang</a>
+        </div>
+        <div class="linksbox" id="ketabnakbox">
+            <a class="sub textlink" id="ketabnak" href="#1">Ketabnak | PDF Version</a>
+        </div>
+        <div class="linksbox" id="ketabrahbox">
+            <a class="sub textlink" id="ketabrah" href="#2">Ketabrah | EPUB Version</a>
+        </div>
+        <div id="bookline"></div>
+        <a class="textlink" id="book">Information Security</a>
         <a class="textlink" id="parsinegar" href="https://mohsen-karami.github.io/parsinegar">ParsiNegar</a>
         <!-- text -->
         <p class="first name">Mohsen</p>
@@ -21,5 +35,6 @@
         <p class="introduction one">I have two sides; Science and Technology.</p>
         <p class="introduction two">My academic education is in Physics and I'm also interested in Mathematics and Philosophy.</p>
         <p class="introduction three">I work as a programmer, rather web developer. Python is my main language and i'm using Django as my backend framework.</p>
+        <script src="main.js"></script>
     </body>
 </html>
