@@ -17,17 +17,21 @@ bigBangLink.style.top = "-5vh";
 ketabnakLink.style.top = "5vh";
 ketabrahLink.style.top = "5vh";
 
-if (screen.matches) {
-    blogLine.style.right = "12.5vw";
-    blogLine.style.width = "0.025vw";
-    bookLine.style.right = "27.5vw";
-    bookLine.style.width = "0.055vw";
-} else {
-    blogLine.style.right = "3.5vw";
-    blogLine.style.width = "0.007vw";
-    bookLine.style.right = "10vw";
-    bookLine.style.width = "0.02vw";
+function rotate() {
+    if (screen.matches) {
+        blogLine.style.right = "12.5vw";
+        blogLine.style.width = "0.025vw";
+        bookLine.style.right = "27.5vw";
+        bookLine.style.width = "0.005vw";
+    } else {
+        blogLine.style.right = "3.5vw";
+        blogLine.style.width = "0.007vw";
+        bookLine.style.right = "10vw";
+        bookLine.style.width = "0.02vw";
+    }
 }
+
+setInterval(rotate, 100);
 
 blog.onclick = function () {
     if (blogCondition === true) {
@@ -54,7 +58,11 @@ book.onclick = function () {
         bookLine.style.transition = "transform .3s";
         ketabnakLink.style.transition = "transform .3s .15s";
         ketabrahLink.style.transition = "transform .3s .3s";
-        bookLine.style.transform = "scale(1000, 1)";
+        if (screen.matches) {
+            bookLine.style.transform = "scale(12000, 1)";
+        } else {
+            bookLine.style.transform = "scale(1000, 1)";
+        }
         ketabnakLink.style.transform = "translate(0, -5vh)";
         ketabrahLink.style.transform = "translate(0, -4.5vh)";
         bookCondition = false;
