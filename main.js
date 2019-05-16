@@ -5,7 +5,8 @@ var blog = document.getElementById("blog");
 var blogLine = document.getElementById("blogline");
 var myBlogLink = document.getElementById("myblog");
 var bigBangLink = document.getElementById("bigbang");
-
+var removebookpoint;
+var removeblogpoint;
 var bookCondition = true;
 var book = document.getElementById("book");
 var bookLine = document.getElementById("bookline");
@@ -37,6 +38,7 @@ setInterval(rotate, 100);
 
 blog.onclick = function () {
     if (blogCondition === true) {
+        clearTimeout(removeblogpoint);
         blogLine.style.maxWidth = "20vw";
         blogLine.style.transition = "transform .3s";
         myBlogLink.style.transition = "transform .3s .15s";
@@ -46,6 +48,7 @@ blog.onclick = function () {
         bigBangLink.style.transform = "translate(0, 5.5vh)";
         blogCondition = false;
     } else {
+        removeblogpoint = setTimeout(function() {blogLine.style.maxWidth = "0"}, 900);
         bigBangLink.style.transition = "transform .3s";
         myBlogLink.style.transition = "transform .3s .15s";
         blogLine.style.transition = "transform .3s .3s";
@@ -58,6 +61,7 @@ blog.onclick = function () {
 
 book.onclick = function () {
     if (bookCondition === true) {
+        clearTimeout(removebookpoint);
         bookLine.style.maxWidth = "55vw";
         bookLine.style.transition = "transform .3s";
         ketabnakLink.style.transition = "transform .3s .15s";
@@ -67,6 +71,7 @@ book.onclick = function () {
         ketabrahLink.style.transform = "translate(0, -4.5vh)";
         bookCondition = false;
     } else {
+        removebookpoint = setTimeout(function() {bookLine.style.maxWidth = "0"}, 900);
         ketabrahLink.style.transition = "transform .3s";
         ketabnakLink.style.transition = "transform .3s .15s";
         bookLine.style.transition = "transform .3s .3s";
