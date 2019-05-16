@@ -59,7 +59,7 @@ book.onclick = function () {
         ketabnakLink.style.transition = "transform .3s .15s";
         ketabrahLink.style.transition = "transform .3s .3s";
         if (screen.matches) {
-            bookLine.style.transform = "scale(12000, 1)";
+            bookLine.style.transform = "scale(15000, 1)";
         } else {
             bookLine.style.transform = "scale(1000, 1)";
         }
