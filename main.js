@@ -16,13 +16,15 @@ myBlogLink.style.top = "-5vh";
 bigBangLink.style.top = "-5vh";
 ketabnakLink.style.top = "5vh";
 ketabrahLink.style.top = "5vh";
+bookLine.style.maxWidth = "0";
+blogLine.style.maxWidth = "0";
 
 function rotate() {
     if (screen.matches) {
         blogLine.style.right = "12.5vw";
         blogLine.style.width = "0.025vw";
         bookLine.style.right = "27.5vw";
-        bookLine.style.width = "0.06vw";
+    bookLine.style.width = "0.06vw";
     } else {
         blogLine.style.right = "3.5vw";
         blogLine.style.width = "0.007vw";
@@ -35,6 +37,7 @@ setInterval(rotate, 100);
 
 blog.onclick = function () {
     if (blogCondition === true) {
+        blogLine.style.maxWidth = "20vw";
         blogLine.style.transition = "transform .3s";
         myBlogLink.style.transition = "transform .3s .15s";
         bigBangLink.style.transition = "transform .3s .3s";
@@ -55,6 +58,7 @@ blog.onclick = function () {
 
 book.onclick = function () {
     if (bookCondition === true) {
+        bookLine.style.maxWidth = "55vw";
         bookLine.style.transition = "transform .3s";
         ketabnakLink.style.transition = "transform .3s .15s";
         ketabrahLink.style.transition = "transform .3s .3s";
