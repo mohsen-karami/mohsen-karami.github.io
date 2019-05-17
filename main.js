@@ -48,7 +48,7 @@ blog.onclick = function () {
         bigBangLink.style.transform = "translate(0, 5.5vh)";
         blogCondition = false;
     } else {
-        removeblogpoint = setTimeout(function() {blogLine.style.maxWidth = "0"}, 800);
+        removeblogpoint = setTimeout(function() {blogLine.style.maxWidth = "0"}, 700);
         bigBangLink.style.transition = "transform .3s";
         myBlogLink.style.transition = "transform .3s .15s";
         blogLine.style.transition = "transform .3s .3s";
