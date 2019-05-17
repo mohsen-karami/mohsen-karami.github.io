@@ -48,7 +48,7 @@ blog.onclick = function () {
         bigBangLink.style.transform = "translate(0, 5.5vh)";
         blogCondition = false;
     } else {
-        removeblogpoint = setTimeout(function() {blogLine.style.maxWidth = "0"}, 500);
+        removeblogpoint = setTimeout(function() {blogLine.style.maxWidth = "0"}, 600);
         bigBangLink.style.transition = "transform .3s";
         myBlogLink.style.transition = "transform .3s .15s";
         blogLine.style.transition = "transform .3s .3s";
@@ -71,7 +71,7 @@ book.onclick = function () {
         ketabrahLink.style.transform = "translate(0, -4.5vh)";
         bookCondition = false;
     } else {
-        removebookpoint = setTimeout(function() {bookLine.style.maxWidth = "0"}, 800);
+        removebookpoint = setTimeout(function() {bookLine.style.maxWidth = "0"}, 600);
         ketabrahLink.style.transition = "transform .3s";
         ketabnakLink.style.transition = "transform .3s .15s";
         bookLine.style.transition = "transform .3s .3s";
