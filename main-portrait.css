@@ -1,7 +1,9 @@
 body {
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.85) 0%,rgba(0,0,0,0.7) 50%,rgba(0,0,0,0.85) 100%), url(images/laptop-on-desk.jpg);
-    background-size: 100vw 100vh;
+    background-size: 200vw 100vh;
     background-attachment: scroll;
+    padding: 0;
+    margin: 0;
 }
 /* icons */
 #github {
@@ -128,45 +130,31 @@ body {
     left: 1vw;
 }
 /* text */
-p {
+.text {
+    top: 20vh;
+    left: 2vw;
     position: fixed;
+    width: 96vw;
+    background-color: rgba(255,255,255,0.1);
+    height: 60vh;
+}
+
+p {
     color: snow;
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    font-size: 5vw;
+    line-height: 4.5vh;
 }
 
-.name {
+p.name {
     position: fixed;
-    font-size: 20vw;
+    font-size: 6vw;
+    top: 70vh;
+    right: 3vw;
 }
 
-.first {
-    top: 10vh;
-    left: 5vw;
-}
-
-.last {
-    top: 25vh;
-    left: 35vw;
-}
-
-.introduction {
-    position: fixed;
-}
-
-.one {
-    top: 55vh;
-    left: 12vw;
-    font-size: 4.3vw;
-}
-
-.two {
-    top: 65vh;
-    left: 25vw;
-    font-size: 3.5vw;
-}
-
-.three {
-    top: 73vh;
-    left: 5vw;
-    font-size: 3vw;
+@keyframes appearance {
+  from {color: transparent;}
+  to {color: snow;}
 }

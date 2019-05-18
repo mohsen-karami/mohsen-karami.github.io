@@ -5,8 +5,9 @@ var blog = document.getElementById("blog");
 var blogLine = document.getElementById("blogline");
 var myBlogLink = document.getElementById("myblog");
 var bigBangLink = document.getElementById("bigbang");
-var removebookpoint;
 var removeblogpoint;
+
+var removebookpoint;
 var bookCondition = true;
 var book = document.getElementById("book");
 var bookLine = document.getElementById("bookline");
@@ -25,7 +26,7 @@ function rotate() {
         blogLine.style.right = "12.5vw";
         blogLine.style.width = "0.025vw";
         bookLine.style.right = "27.5vw";
-    bookLine.style.width = "0.06vw";
+        bookLine.style.width = "0.06vw";
     } else {
         blogLine.style.right = "3.5vw";
         blogLine.style.width = "0.007vw";
