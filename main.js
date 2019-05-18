@@ -24,14 +24,14 @@ blogLine.style.maxWidth = "0";
 function rotate() {
     if (screen.matches) {
         blogLine.style.right = "12.5vw";
-        blogLine.style.width = "0.025vw";
+        blogLine.style.width = "0.25vw";
         bookLine.style.right = "27.5vw";
-        bookLine.style.width = "0.06vw";
+        bookLine.style.width = "0.6vw";
     } else {
         blogLine.style.right = "3.5vw";
-        blogLine.style.width = "0.007vw";
+        blogLine.style.width = "0.07vw";
         bookLine.style.right = "10vw";
-        bookLine.style.width = "0.02vw";
+        bookLine.style.width = "0.2vw";
     }
 }
 
@@ -44,7 +44,7 @@ blog.onclick = function () {
         blogLine.style.transition = "transform .3s";
         myBlogLink.style.transition = "transform .3s .15s";
         bigBangLink.style.transition = "transform .3s .3s";
-        blogLine.style.transform = "scale(1000, 1)";
+        blogLine.style.transform = "scale(100, 1)";
         myBlogLink.style.transform = "translate(0, 6vh)";
         bigBangLink.style.transform = "translate(0, 5.5vh)";
         blogCondition = false;
@@ -67,7 +67,7 @@ book.onclick = function () {
         bookLine.style.transition = "transform .3s";
         ketabnakLink.style.transition = "transform .3s .15s";
         ketabrahLink.style.transition = "transform .3s .3s";
-        bookLine.style.transform = "scale(1000, 1)";
+        bookLine.style.transform = "scale(100, 1)";
         ketabnakLink.style.transform = "translate(0, -5vh)";
         ketabrahLink.style.transform = "translate(0, -4.5vh)";
         bookCondition = false;
