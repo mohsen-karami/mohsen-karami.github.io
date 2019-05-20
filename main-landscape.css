@@ -51,13 +51,11 @@ body {
     height: 0.2vh;
     top: 9vh;
     right: 2vw;
-    z-index: 1;
 }
 
 .linksbox {
     position: fixed;
     overflow: hidden;
-    z-index: 0;
 }
 
 #myblogbox {
@@ -147,4 +145,14 @@ p.name {
     width: 32vw;
     top: 20vh;
     font-size: 5vw;
+}
+
+@media screen and (max-width: 800px) {
+    #blogline {
+        height: 0.3vh;
+    }
+    
+    #bookline {
+        height: 0.3vh;
+    }
 }
