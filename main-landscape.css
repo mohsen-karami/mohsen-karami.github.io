@@ -149,10 +149,10 @@ p.name {
 
 @media screen and (max-width: 800px) {
     #blogline {
-        height: 0.3vh;
+        height: 0.5vh;
     }
     
     #bookline {
-        height: 0.3vh;
+        height: 0.5vh;
     }
 }
