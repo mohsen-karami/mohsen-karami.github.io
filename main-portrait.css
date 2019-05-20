@@ -8,50 +8,50 @@ body {
 /* icons */
 #github {
     position: fixed;
-    width: 9vw;
-    top: 0.5vh;
-    left: 1vw;
+    width: 6vw;
+    top: 4vh;
+    left: 4vw;
 }
 
 #in {
     position: fixed;
-    width: 8vw;
-    top: 0.6vh;
-    left: 11vw;
+    width: 6vw;
+    top: 4vh;
+    left: 13vw;
 }
 
 #mail {
     position: fixed;
-    width: 33vw;
-    top: 0.5vh;
-    left: 21vw;
+    width: 23vw;
+    top: 4vh;
+    left: 23vw;
 }
 /* links */
 .textlink {
     position: fixed;
     color: snow;
-    font-size: 6vw;
+    font-size: 5vw;
     text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .sub {
-    font-size: 5vw;
+    font-size: 4vw;
 }
 
 #blog {
-    font-size: 9vw;
-    top: 0;
-    right: 4.5vw;
+    font-size: 5vw;
+    top: 4vh;
+    right: 6vw;
 }
 
 #blogline {
     background-color: snow;
     position: fixed;
-    width: 25vw;
-    height: 0.4vh;
-    top: 6vh;
-    right: 0;
+    width: 15vw;
+    height: 0.2vh;
+    top: 8vh;
+    right: 3vw;
 }
 
 .linksbox {
@@ -60,74 +60,74 @@ body {
 }
 
 #myblogbox {
-    width: 25vw;
+    width: 15vw;
     height: 5vh;
-    right: 0;
-    top: 6vh;
+    right: 3vw;
+    top: 8vh;
 }
 
 #bigbangbox {
-    width: 25vw;
+    width: 15vw;
     height: 5vh;
-    right: 0;
-    top: 11vh;
+    right: 3vw;
+    top: 13vh;
 }
 
 #myblog {
     position: absolute;
     top: 1vh;
-    left: 5.3vw;
+    left: 1.5vw;
 }
 
 #bigbang {
     position: absolute;
-    top: 0.5vh;
-    left: 4.9vw;
+    top: 1vh;
+    left: 1.1vw;
 }
 
 #bookline {
     background-color: snow;
     position: fixed;
-    width: 55vw;
-    height: 0.4vh;
-    bottom: 6vh;
-    right: 0;
+    width: 47vw;
+    height: 0.2vh;
+    bottom: 8vh;
+    right: 3vw;
 }
 
 #ketabnakbox {
-    width: 55vw;
+    width: 47vw;
     height: 5vh;
-    right: 0;
-    bottom: 6vh;
+    right: 3vw;
+    bottom: 8vh;
 }
 
 #ketabrahbox {
-    width: 55vw;
+    width: 47vw;
     height: 5vh;
-    right: 0;
-    bottom: 11vh;
+    right: 3vw;
+    bottom: 13vh;
 }
 
 #ketabnak {
     position: absolute;
-    top: 0.5vh;
+    top: 1vh;
     left: 5vw;
 }
 
 #ketabrah {
     position: absolute;
-    top: 0.5vh;
+    top: 1.2vh;
     left: 4.3vw;
 }
 
 #book {
-    bottom: 0.5vh;
-    right: 3.5vw;
+    bottom: 4vh;
+    right: 6vw;
 }
 
 #parsinegar {
-    bottom: 0.5vh;
-    left: 1vw;
+    bottom: 4vh;
+    left: 6vw;
 }
 /* text */
 .text {

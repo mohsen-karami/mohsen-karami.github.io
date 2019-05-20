@@ -23,15 +23,15 @@ blogLine.style.maxWidth = "0";
 
 function rotate() {
     if (screen.matches) {
-        blogLine.style.right = "12.5vw";
-        blogLine.style.width = "0.25vw";
-        bookLine.style.right = "27.5vw";
-        bookLine.style.width = "0.6vw";
+        blogLine.style.right = "10.5vw";
+        blogLine.style.width = "0.15vw";
+        bookLine.style.right = "26.5vw";
+        bookLine.style.width = "0.47vw";
     } else {
-        blogLine.style.right = "3.5vw";
-        blogLine.style.width = "0.07vw";
-        bookLine.style.right = "10vw";
-        bookLine.style.width = "0.2vw";
+        blogLine.style.right = "5.25vw";
+        blogLine.style.width = "0.065vw";
+        bookLine.style.right = "10.25vw";
+        bookLine.style.width = "0.165vw";
     }
 }
 
