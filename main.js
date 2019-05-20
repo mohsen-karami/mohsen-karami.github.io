@@ -40,7 +40,7 @@ setInterval(rotate, 100);
 blog.onclick = function () {
     if (blogCondition === true) {
         clearTimeout(removeblogpoint);
-        blogLine.style.maxWidth = "20vw";
+        blogLine.style.maxWidth = "16.5vw";
         blogLine.style.transition = "transform .3s";
         myBlogLink.style.transition = "transform .3s .15s";
         bigBangLink.style.transition = "transform .3s .3s";
@@ -63,7 +63,7 @@ blog.onclick = function () {
 book.onclick = function () {
     if (bookCondition === true) {
         clearTimeout(removebookpoint);
-        bookLine.style.maxWidth = "55vw";
+        bookLine.style.maxWidth = "47vw";
         bookLine.style.transition = "transform .3s";
         ketabnakLink.style.transition = "transform .3s .15s";
         ketabrahLink.style.transition = "transform .3s .3s";
