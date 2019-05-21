@@ -154,8 +154,8 @@ p.name {
     position: fixed;
     font-size: 6vw;
     bottom: 28vh;
-    right: 6vw;
-    text-align: right;
+    left: 60vw;
+    width: 37vw;
 }
 
 @keyframes appearance {
