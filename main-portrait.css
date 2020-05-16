@@ -142,12 +142,13 @@ body {
 
 p {
     position: fixed;
-    left: 6vw;
+    left: 5vw;
     color: snow;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: left;
-    font-size: 5vw;
-    line-height: 4.5vh;
+    font-size: 5.5vw;
+    line-height: 5vh;
+    right: 15px;
 }
 
 p.name {
